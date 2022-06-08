@@ -1,0 +1,69 @@
+﻿* {
+    font-family: sans-serif;
+    color: #9ce5ee;
+
+}
+
+.containerGrid {
+    display: grid;
+    place-items: center;
+    grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'menu footer footer footer footer footer';
+
+}
+
+.box {
+    background-color: #2d73b2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 10px;
+
+}
+.itemHeader {
+    grid-area: header;
+
+}
+
+.sideBar {
+    grid-area: menu;
+    border-radius: 10px;
+
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+
+footer {
+    background-color:#5397ac;
+    position: relative;
+
+}
+
+#submitBtn {
+    background-color: rgb(82, 122, 225);
+    position:relative;
+    left: 467px;
+    padding: 4px 20px;
+}
+
+input {
+    color: black;
+}
+textarea {
+    color: black;
+}
+
+/**
+    #9ce5ee
+    #2d73b2
+    #5397ac
+*\

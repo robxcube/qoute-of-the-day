@@ -1,0 +1,9 @@
+{
+    "require": {
+        "mailgun/mailgun-php": "dev-master",
+        "symfony/http-client": "^6.1",
+        "nyholm/psr7": "^1.5",
+        "php-http/guzzle6-adapter": "^2.0",
+        "symfony/symfony": "^6.1"
+    }
+}
